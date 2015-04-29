@@ -1,2 +1,2 @@
-# massive-archer
-Project 1
+# hairy-octo-avenger
+Project 2
