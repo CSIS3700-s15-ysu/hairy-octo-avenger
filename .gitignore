@@ -26,3 +26,6 @@
 *.exe
 *.out
 *.app
+
+# some graphics stuff
+*.pdn
