@@ -1,5 +1,6 @@
 # Project 2
 
+## Notes on editting
 Do **not** edit the following files:
 - rectangle.h
 - rectangle.C
