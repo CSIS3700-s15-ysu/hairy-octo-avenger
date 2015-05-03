@@ -20,6 +20,19 @@ namespace csis3700 {
 
   world::world() {
   /**fill this out**/
+  //load bitmaps
+  //world is going to be a solid color, which I think is already handled in main (sorry, not sorry)
+  
+  //load platform_image
+  ALLEGRO_BITMAP *platform_image = al_load_bitmap("0.png");
+  
+  	for (int i=0; i<10; i ++){
+		x = 50 * i;
+		y = 50;
+		}
+			
+		the_sprites.push_back(new sprite(platform_image, world::WIDTH, world::HEIGHT, x, y));
+		}
   
   }
 

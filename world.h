@@ -9,6 +9,10 @@
 namespace csis3700 {
   class world {
   public:
+	//static constants
+	static const std::size_t WIDTH=800;
+	static const std::size_t HEIGHT=600;
+  
     /**
      * Construct the world. The display is passed in simply to make it
      * possible to modify options or access the backbuffer. DO NOT

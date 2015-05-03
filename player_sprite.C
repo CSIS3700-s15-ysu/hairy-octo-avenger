@@ -10,6 +10,7 @@ namespace csis3700 {
 
   player_sprite::player_sprite(float initial_x, float initial_y) : 
     phys_sprite(initial_x, initial_y) {
+	/**this needs done**/
   }
 
   bool player_sprite::is_passive() const {
