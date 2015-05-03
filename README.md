@@ -22,8 +22,10 @@ Do **not** edit the following files:
 
 ## Order
 - Build world
-- handle collisions
--
+- handle collisions / move player around
+- add moving obstacle
+- add coins/gems
+- add score
 
 ## Graphics to make
 - background
