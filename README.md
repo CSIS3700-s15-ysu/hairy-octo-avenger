@@ -8,3 +8,25 @@ Do **not** edit the following files:
 - image_library.C (?)
 - vec2d.h (?)
 - vec2d.C (?)
+
+## Required
+- walking on platform
+- active obstacles
+- subgoals
+- score (coins, etc)
+
+## Absolute minimum
+- handle collisons
+- active obstacles
+- walking
+
+## Order
+- Build world
+- handle collisions
+-
+
+## Graphics to make
+- background
+- coin
+- walking animation
+- moving obstacle (enemy)
