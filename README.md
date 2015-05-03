@@ -26,9 +26,3 @@ Do **not** edit the following files:
 - add moving obstacle
 - add coins/gems
 - add score
-
-## Graphics to make
-- background
-- coin
-- walking animation
-- moving obstacle (enemy)
