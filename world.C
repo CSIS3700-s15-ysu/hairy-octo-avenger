@@ -19,6 +19,8 @@ namespace csis3700 {
   }
 
   world::world() {
+  /**fill this out**/
+  
   }
 
   world::world(const world& other) {
@@ -35,10 +37,11 @@ namespace csis3700 {
   }
 
   void world::handle_event(ALLEGRO_EVENT ev) {
+  /**fill this out**/
   }
 
   void world::resolve_collisions() {
-
+	/**fill this out**/
   }
 
   void world::advance_by_time(double dt) {

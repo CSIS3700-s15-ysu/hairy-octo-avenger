@@ -21,10 +21,24 @@ namespace csis3700 {
   }
 
   void player_sprite::advance_by_time(double dt) {
-    phys_sprite::advance_by_time(dt);
+    //advance_by_time is handled by phys_sprite
+	phys_sprite::advance_by_time(dt);	
   }
 
   void player_sprite::resolve(const collision& collision, sprite *other) {
+	/**this needs done**/
+	
+	//stuff from: http://www.raywenderlich.com/15230/how-to-make-a-platform-game-like-super-mario-brothers-part-1
+	
+	
+	//check for collision -- this will be called if there's a jump or move
+	//action selected
+	
+	//if there's a collision, move player sprite so collision is no longer
+	//occurring
+	
+	//move player sprite to a new position (desiredPosition), check that for collisions and then have a higher level(?) update player_sprite position
+  
   }
 
 }
